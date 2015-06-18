@@ -1,10 +1,6 @@
-<html>
-<head>
-  <title>kafe-bl</title>
+<?php
+require_once "lib/router.php";
+require_once "page/HomeController.php";
 
-
-</head>
-<body>
-
-</body>
-</html>
+$router = new Router();
+$router->run();
