@@ -1,0 +1,18 @@
+CORE
+- Pager
+- Input validation
+- DB class
+
+Pages - ADMIN
+    - Login
+    - Categories
+        - Edit
+        - List
+    - Tags
+        - Edit
+        - List
+Pages - Public
+    - List posts
+        - by category
+        - by tag
+    - View post
